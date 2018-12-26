@@ -15,5 +15,10 @@ checkSenderName
 addAlphaSenderName
 checkAlphaSenderMobileNumber
 ```
+Every function has REST API call and is using the URLSession library(iOS Native SDK) for JSON POST, GET Request/Response management
+The **Good** things I found in the SDK is that 
+* URLSession library to call REST API
+* Error Handling in every api calls response
+* Comments in every codelines
 ## Comparison between Old and New SDK
 ## Working Result of New SDK
