@@ -20,10 +20,11 @@ The **Good** things I found in the SDK are
 * URLSession library to call REST API
 * Error Handling in every api calls response
 * Comments in every codelines
-## Comparison between Old and New SDK
-## Working Result of New SDK
-
 The **bad** things I found in the SDK are 
 * Every api call has repeatable parameter setup and JSON parseer to handle response as JSON type, but all are hard coded
 My recommendation 
 * we can setup new module to setup request parameters named NetworkManager. This NetworkManager can return Parameter object as object.
+
+## Comparison between Old and New SDK
+## Working Result of New SDK
+
