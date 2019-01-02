@@ -26,5 +26,6 @@ My recommendation
 * we can setup new module to setup request parameters named NetworkManager. This NetworkManager can return Parameter object as object.
 
 ## Comparison between Old and New SDK
-## Working Result of New SDK
+Ald SDK is using Alamofire for fetching REST Service, and new SDK is using the URLSession of Apple SDK. So for version upgrading or maintain for the future, new SDK is better than old sdk
+
 
